@@ -1,6 +1,6 @@
 # cafebills
 
-This is a Dagster project that put daily report files to AWS S3 then these files will be fetched and loaded to postgresql at a scheduled time.
+This is a Dagster project that put daily report files to AWS S3 then these files will be loaded to postgresql at a scheduled time.
 
 It uses s3_fake_resource, S3FakeSession to imitate S3 environment, and we can check at local:
 
